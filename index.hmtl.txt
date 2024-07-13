@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zani's Eatery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="Zani Logo.jfif" alt="Zani's Eatery Logo" class="logo">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#order">Order Now</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h1>Welcome to Zani's Eatery</h1>
+        <p>Delicious burgers and wings, right at your doorstep!</p>
+        <button onclick="location.href='#order'">Order Now</button>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Located in Katlehong, Zani's Eatery is known for its mouth-watering burgers and wings. We pride ourselves on providing a welcoming atmosphere and delicious food that keeps our customers coming back for more.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@zaniseatery.com</p>
+        <p>Phone: +27 123 456 789</p>
+        <p>Address: 105 Sebobane Street, Katlehong, Gauteng</p>
+    </section>
+    <section id="social">
+        <h2>Follow Us</h2>
+        <a href="https://www.facebook.com/zaniseatery" target="_blank">Facebook</a> |
+        <a href="https://www.instagram.com/zaniseatery" target="_blank">Instagram</a> |
+        <a href="https://twitter.com/zaniseatery" target="_blank">Twitter</a>
+    </section>
+    <section id="order">
+        <h2>Order Now</h2>
+        <p>Check out our menu and place your order online!</p>
+        <button onclick="location.href='https://orderlink.com'">Order Online</button>
+    </section>
+    <footer>
+        <p>&copy; 2024 Zani's Eatery. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
